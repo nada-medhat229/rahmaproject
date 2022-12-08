@@ -1,0 +1,517 @@
+  @font-face {
+   font-family: owswald;
+   src: url(../fonts/Oswald-VariableFont_wght\ -\ Copy.ttf);
+  }
+  @font-face {
+   font-family: "opensans";
+   src: url(../fonts/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+  }
+  
+  
+  *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+ }
+ .clear{
+  clear: both;
+  content: "";
+ }
+ /*start nav*/
+ nav{ 
+    background-color: black;
+    width: 100%;
+    padding: 5px;
+ }
+ nav a{ 
+   padding: 5px 10px ;
+   color: white;
+   text-decoration: none;
+   
+   display: inline-block;
+
+ }
+ .a1{
+   float: right;
+  
+
+ }
+ nav a:hover{
+   background-color: #ccc;
+   color: black;
+ }
+ /*start section*/ 
+  section{
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 50px 0px;
+    font-family: owswald;
+ }
+ section h1{
+
+  
+   font-weight: 900;
+ 
+   font-size: 40px;
+ }
+
+ section p{
+
+   padding: 20px 0px;
+ }
+ section p span{
+   background-color: black;
+   color: white;
+   padding: 0px 5px;
+  
+ }
+ /*start header*/
+ header{
+   position: relative;
+
+ }
+ 
+ header div{
+   position: absolute;
+   top: 40%;
+   left: 50px;
+   color: white;
+
+ }
+ 
+ header h1,h2 ,p{
+   font-family: owswald;
+
+ }
+ header div h1{
+   font-weight: 700px;
+   font-size: 64px;
+   padding: 8px 0px;
+   letter-spacing: 3px;
+
+}
+header div h3{
+   font-weight: 400px;
+   font-size: 36px;
+   padding: 8px 0px;
+}
+
+ header div button{
+   padding: 10px;
+   background-color:rgba(160,160, 160 ,0.7);
+   font-size: 18px;
+   font-weight: 400px;
+   border: none;
+   
+
+ }
+ 
+ header div button:hover{
+
+   background-color:rgba(160,160, 160 ,0.9);
+ }
+ 
+ /*start main*/
+ main{
+  background-color: #f1f1f1;
+  overflow: auto;
+  height: auto;
+
+  
+ }
+ main #leftside{
+  width: 70%;
+  display: inline-block;
+  padding: 20px ;
+  float: left;
+  background-color: #f1f1f1;
+ }
+ main #leftside article{
+
+  background-color: white;
+padding: 20px ;
+margin: 20px 0px ;
+}
+
+ 
+ main #leftside article h2{
+
+  
+  text-align: center;
+  font-family: owswlad;
+  
+  
+ }
+ main #leftside article p{
+  
+  text-align: center;
+  padding: 20px 0px;
+  
+ }
+ main #leftside article p span{
+  color: gray;
+
+
+ }
+ main #leftside article .par{
+  font-family: "opensans";
+  text-align: left;
+  text-align: justify;
+  font-size: 15px;
+  line-height: 1.5;
+ }
+ main #leftside article .par span{
+  color: black;
+  font-weight: bold;
+
+ }
+ main #leftside article .buttonsaide{
+  padding: 30px;
+
+ }
+ 
+ main #leftside article .buttonsaide .button1{
+  float: left;
+  padding:  10px ;
+  color: black;
+  border: 1px solid gray;
+  background-color: white;
+  font-weight: bold;
+  }
+  main #leftside article .buttonsaide .button1:hover{
+    background-color: gray;
+   
+  }
+ main #leftside article .buttonsaide .button2{
+  float: right;
+  padding: 10px  ;
+  background-color: black;
+  border: none;
+  color: white;
+  font-weight: bold;
+ }
+ main #leftside article .buttonsaide .button2:hover{
+
+  background-color:lightgray ;
+  color: black;
+ }
+ 
+ main #leftside article .buttonsaide .button2 span{
+  padding: 0px 5px;
+  background-color: white;
+  color:black;
+ }
+
+ main #leftside .line{
+  border-bottom: 1px solid  silver;
+  padding: 20px;
+}
+
+ main #leftside .articalfooter{
+  padding: 30p 0px;
+
+ }
+
+main #leftside .articalfooter .imgd{
+  float: left;
+  width: 10%;
+  display: inline-block;
+  
+
+
+}
+main #leftside .articalfooter .textd{
+  float: right;
+  width: 90%;
+  display: inline-block;
+
+}
+
+main #leftside .articalfooter .textd p{
+  text-align: left;
+  padding: 10px 30px;
+}
+
+
+ main #rightside{
+
+  width: 30%;
+  display: inline-block;
+  float: right;
+  background-color:#f1f1f1;
+  padding: 20px ;
+ }
+ main #rightside #girlsection{
+  padding: 0px 0px;
+  margin: 20px 0px;
+
+ }
+ main #rightside #girlsection div{
+  background-color: black;
+  color: white;
+  padding:  15px;
+  margin-top: -10px;
+
+ }
+ main #rightside #girlsection div p{
+
+  padding-bottom: 15px;
+  text-align: left;
+ }
+
+  main #rightside article{ 
+    margin-bottom: 20px;
+  }
+
+  main #rightside article .articleheading{
+    background-color: black;
+    color: white;
+    padding: 20px;
+  }
+ 
+  main #rightside article .articlebody{
+   
+    background-color: white;
+    height: auto;
+    overflow: auto;
+
+  }
+
+  main #rightside article .b1 .articledes{
+    padding: 10px;
+    
+
+  }
+  main #rightside article .b1 .articledes .imgdes{
+    float: left;
+    width: 15%;
+
+  }
+  
+  main #rightside article .b1 .articledes .textdes{
+    float: right;
+    width: 85%;
+    padding: 0px 20px;
+
+  }
+  
+  
+  main #rightside article .b1 .articledes:hover{
+    background-color: #ccc;
+  }
+  main #rightside article .b2{
+    padding: 20px;
+  }
+  main #rightside article .b2 p{
+    text-align: center;
+    background-color: #ccc;
+    padding: 50px ;
+
+  }
+  main #rightside article .b3{
+    padding: 20px;
+
+  }
+  main #rightside article .b3 span{
+    background-color: #f1f1f1;
+    margin: 10px 5px;
+    display: inline-block;
+    padding: 0px 5px;
+
+    
+
+  }
+  main #rightside article .b3 .span1{
+    background-color: black;
+    color: white;
+    font-size:20px;
+  }
+  main #rightside article .b4{
+    padding:  7px ;
+  }
+  main #rightside article .b4 img{
+    display: inline-block;
+    padding:  7px ;
+
+  }
+  main #rightside article .b5{
+    padding: 10px;
+    font-size: 23px;
+  }
+  
+  main #rightside article .b5 i:hover {
+    color: gray;
+
+  }
+
+  main #rightside article .b6{
+
+    padding: 20px;
+  }
+  main #rightside article .b6 form{
+
+  }
+  main #rightside article .b6 form p{
+    padding: 5px;
+    font-size: 15px;
+    font-family: "opensans";
+    display: block;
+    width: 100%;
+  }
+
+    main #rightside article .b6 form input{
+      display: block;
+width: 100%;
+margin: 15px 0px;
+padding: 10px;
+    }
+  
+   
+   main #rightside article .b6 form button{
+    display: block;
+    background-color: #f44336;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    border: none;
+    width: 100%;
+
+   }
+   main #rightside article .b6 form button:hover{
+    background-color: #f1f1f1;
+    color: black;
+   }
+
+ .clear{
+  clear: both;
+  content: "";
+ }
+ /*start footer*/
+
+ footer{
+    background-color: #616161;
+    padding: 30px;
+    color: white;
+
+ }
+ footer button{
+   background-color: black;
+   color: white;
+   padding: 15px 25px;
+   border: none;
+
+ }
+ footer button:hover{
+  background-color: silver;
+  color: black;
+ }
+ footer p{
+   font-family: opensans;
+   padding: 30px 0px;
+   font-size: 20px;
+
+
+
+ }
+ footer button i{
+  padding: 0px 5px;
+  font-size: 18px;
+ }
+ footer p a{
+   font-family: opensans;
+   color: white;
+
+
+ }
+ /*subscribe*/
+ .subscribe{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+   background-color: rgba(160,160, 160 ,0.6);
+  top: 300px ;
+  top: 0px;
+  display: none;
+ }
+ .subscribeform{
+  background-color: white;
+  padding: 30px;
+  width: 60%;
+  margin: 150px auto;
+  position: relative;
+
+ }
+ .subscribeform h2,.subscribeform p , .subscribeform input, .subscribeform .sub{
+  display: block;
+  width: 100%;
+ }
+ 
+ .subscribeform h2{
+  padding: 10px;
+  font-weight: bold;
+  font-size: 25px;
+ }
+ .subscribeform p {
+  padding: 10px;
+ }
+ .subscribeform .sub{
+  display: block;
+    background-color: #f44336;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    border: none;
+    width: 100%;
+
+ }
+ .subscribeform .sub:hover{
+  background-color: #ccc;
+  color: black;
+ }
+ .subscribeform input{
+  padding: 15px;
+  margin: 10px 0px ;
+ }
+ .close{
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  padding: 5px 10px;
+  font-weight: bold;
+  border: none;
+  font-size: 25px;
+
+  
+
+ }
+ .close:hover{
+  background-color: #ccc;
+
+ }
+ @media screen and (max-width:900px){
+  
+  header div {
+    top: 5px;
+
+  }
+  header div h3{
+    font-size: 20px;
+  }
+  header div h1{
+    font-size: 20px;
+
+  }
+  main #leftside,main #rightside{
+    display: block;
+    float: none;
+    width: 100%;
+
+
+  }
+
+
+ } 
+ 
+
+
+ 
